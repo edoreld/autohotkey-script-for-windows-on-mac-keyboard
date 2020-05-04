@@ -1,0 +1,1 @@
+# autohotkey-script-for-windows-on-mac-keyboard
