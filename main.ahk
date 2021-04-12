@@ -41,6 +41,10 @@ if (A_TimeSincePriorHotkey > 15)
 Send {WheelUp 10}
 return
 
+^Up::Send {PgUp}
+
+^Down::Send {PgDn}
+
 ; --------------------------------------------------------------
 ; Mac-like screenshots in Windows (requires Windows 10 Snip & Sketch)
 ; --------------------------------------------------------------
@@ -231,5 +235,4 @@ $#+Up::Send +^{Home}
 $#+Down::Send +^{End}
 $!+Left::Send +^{Left}
 $!+Right::Send +^{Right}
-
 
